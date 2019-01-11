@@ -32,7 +32,7 @@
       }
     }
     &.syntax--control.syntax--import {
-      color: @orange;
+      color: @dark-pink;
     }
     &.syntax--other {
       color: @green;
@@ -45,16 +45,19 @@
     &.syntax--character {
       color: @cyan;
     }
+    &.syntax--numeric {
+      color: lighten(@light-purple, 10%);
+    }
     &.syntax--other {
       color: @red;
     }
   }
 
   .syntax--entity.syntax--name.syntax--type.syntax--class {
-    color: @blue;
+    color: @syntax-text-color;
   }
   .syntax--variable {
-    color: @syntax-text-color;
+    color: @green;
   }
   .syntax--support {
     &.syntax--function.syntax--builtin {
@@ -65,12 +68,12 @@
         color: @dark-pink;
       }
       &.syntax--python {
-        color: @blue;
+        color: @green;
       }
     }
   }
   .syntax--storage.syntax--type.syntax--string {
-    color: @cyan;
+    color: @red;
   }
 
   .syntax--storage.syntax--type.syntax--class {
