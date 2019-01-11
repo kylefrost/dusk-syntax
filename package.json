@@ -1,9 +1,9 @@
 {
-  "name": "dusk-syntax",
+  "name": "kylefrost-dusk-syntax",
   "theme": "syntax",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A dark syntax theme inspired by Xcode's Dusk theme for Atom.",
-  "repository": "https://github.com/jamesejr/dusk-syntax",
+  "repository": "https://github.com/kylefrost/dusk-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
